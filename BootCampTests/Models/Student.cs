@@ -20,5 +20,7 @@ namespace BootCampTests.Models
                 return FirstName + " " + LastName;
             }
         }
+
+        public virtual ICollection<Course> Courses { get; set; }
     }
 }
